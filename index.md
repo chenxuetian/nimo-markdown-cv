@@ -32,19 +32,19 @@ Supported arguments:
 
 ## 科研经历
 
-### 在投论文<br>
+### **在投论文**
 
 **(WWW 2025 Under Review) _Xuetian Chen,_** _Hangcheng Li, Jiaqing Liang, Sihang Jiang, and Deqing Yang. EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data. In Proceedings of the 2025 ACM Web Conference (under review)._[[PDF](https://arxiv.org/pdf/2410.19461)][[Repo](https://github.com/chenxuetian/EDGE)] `2024.10`
 
 数据驱动的视觉-语言大模型在 GUI 理解与交互任务上的能力增强方法。设计一套完整的、自动化的数据合成框架，标注网页并合成丰富的多粒度屏幕问答数据，用于训练视觉-语言大模型的 GUI 理解与交互能力。重点训练模型的 GUI Grounding 能力，尤其对难以自动化标注的图标数据和高级问答任务做了增强。
 
-### 正在进行<br>
+### **正在进行**
 
 - 上述工作的进一步完善：基于自动化网页标注-问答数据合成框架的高质量 GUI 理解与交互数据集构建与质量评估。
 - 使用已具备 GUI Grounding 能力的开源视觉-语言大模型（如 Qwen2-VL）构建 GUI 理解与交互的自动化 Agent 框架，实现 Claude Computer Use 演示的效果。
 - 视觉-语言大模型训练过程中图文问答数据的组织形式：多轮独立的问答是否能带来更好的训练效果。
 
-### 过往项目<br>
+### **过往项目** `2022.12 - 2023.6`
 
 **三维计算机视觉**
 
