@@ -1,15 +1,13 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: 陈学添
 email:
-  url: mailto:nimo@cmu.edu
-  text: nimo@cmu.edu
-homepage:
-  url: https://wodenimoni.com
-  text: wodenimoni.com
+  url: mailto:23210980105@m.fudan.edu.cn
+  text: 23210980105@m.fudan.edu.cn
+phone: 19821231773
 ---
 
-# Wode **Ni**
+# **陈学添**
 
 <!--
 include contact information from the front matter
@@ -21,194 +19,90 @@ Supported arguments:
 
 {% include cv-contact.html %}
 
-## Education
+## 教育背景
 
-### **Carnegie Mellon University** `2018.9 - 2024.9`
+### **复旦大学** `2019.9 - 2023.6`
 
-```
-Pittsburgh, PA
-```
+- 理学学士学位，大数据学院，数据科学与大数据专业，均绩：3.73/4.0，专业排名：9/80
+- 获复旦大学本科生奖学金一等奖、二等奖、三等奖、优秀学生等奖项
 
-- Ph.D. in Software Engineering
-- Dissertation: _Authoring Conceptual Diagrams by Codifying Visual Representations_
-- MS in 2021
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+### **复旦大学** `2023.9 -`
 
-### **Columbia University** `2016.9 - 2018.5`
+- 统计学学硕在读，获复旦大学 2023-2024 学年研究生学业奖学金
 
-```
-New York, NY
-```
+## 科研经历
 
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+### 在投论文<br>
 
-### **Dickinson College** `2013.9 - 2016.5`
+**(WWW 2025 Under Review) _Xuetian Chen,_** _Hangcheng Li, Jiaqing Liang, Sihang Jiang, and Deqing Yang. EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data. In Proceedings of the 2025 ACM Web Conference (under review)._[[PDF](https://arxiv.org/pdf/2410.19461)][[Repo](https://github.com/chenxuetian/EDGE)] `2024.10`
 
-```
-Carlisle, PA
-```
+数据驱动的视觉-语言大模型在 GUI 理解与交互任务上的能力增强方法。设计一套完整的、自动化的数据合成框架，标注网页并合成丰富的多粒度屏幕问答数据，用于训练视觉-语言大模型的 GUI 理解与交互能力。重点训练模型的 GUI Grounding 能力，尤其对难以自动化标注的图标数据和高级问答任务做了增强。
 
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+### 正在进行<br>
 
-## Publications
+- 上述工作的进一步完善：基于自动化网页标注-问答数据合成框架的高质量 GUI 理解与交互数据集构建与质量评估。
+- 使用已具备 GUI Grounding 能力的开源视觉-语言大模型（如 Qwen2-VL）构建 GUI 理解与交互的自动化 Agent 框架，实现 Claude Computer Use 演示的效果。
+- 视觉-语言大模型训练过程中图文问答数据的组织形式：多轮独立的问答是否能带来更好的训练效果。
 
-### **Codifying Visual Representations**
-**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Jiří Minarčík, and Joshua Sunshine. <br>
-_To appear in Proceedings of the 14th International Conference on the Theory and Application of Diagrams (DIAGRAMS'24)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/diagrams-24-penrose.pdf)]
+### 过往项目<br>
 
-### **Rose: Composable Autodiff for the Interactive Web**
-Sam Estep, **Wode Ni**, Raven Rothkopf, and Joshua Sunshine. <br>
-_To appear in Proceedings of the 38th European Conference on Object-Oriented Programming (ECOOP'24)._ <br>
-[[PDF](https://arxiv.org/pdf/2402.17743.pdf)]
+**三维计算机视觉**
 
-### **Edgeworth: Efficient and Scalable Authoring of Visual Thinking Activities**
-**Wode Ni**, Sam Estep, Hwei-Shin Harriman, Ken Koedinger, and Joshua Sunshine. <br>
-_To appear in Proceedings of the 11th ACM Conference on Learning @ Scale (L@S'24)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/las-24-edgeworth.pdf)]
+- 本科毕设：Transformer 架构三维点云实例分割模型。设计并训练点云输入的 Transformer 架构模型，分析相较于传统稀疏卷积网络的优势与不足。
+- 项目经历：三维视觉统一模型：将常见目标检测、语义分割、实例分割等常见三维视觉任务统一为点云输入输出，使用统一模型完成多种任务。
 
+## 实习经历
 
-### **Minkowski Penalties: Robust Differentiable Constraint Enforcement for Vector Graphics**
-Jiří Minarčík, Sam Estep, **Wode Ni**, and Keenan Crane. <br>
-_To appear in ACM SIGGRAPH 2024 Conference Proceedings (SIGGRAPH'24)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/siggraph-24-minkowski.pdf)]
+### **字节跳动** `2022.12 - 2023.8 `
 
-### **Syntactic Code Search with Sequence-to-Tree Matching**
-Gabriel Matute, **Wode Ni**, Titus Barik, Alvin Cheung, and Sarah E. Chasins.<br> 
-_To appear in Proceedings of the ACM on Programming Languages (PLDI'24)._ <br>
-[[PDF](https://dl.acm.org/doi/pdf/10.1145/3656460)]
+_电商广告算法实习生-聚合页方向_<br>
 
-### [**reCode: A Lightweight Find-and-Replace Interaction in the IDE for Transforming Code by Example**]({{ page.homepage.url }}/assets/uist-21-recode.pdf)
-**Wode Ni**, Joshua Sunshine, Vu Le, Sumit Gulwani, and Titus Barik.<br> 
-_In Proceedings of the 34th ACM Symposium on User Interface Software and Technology (UIST'21)._ <br>
-[[PDF]({{ page.homepage.url }}/assets/uist-21-recode.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/uist-21-recode.txt)]
-[[video preview](https://youtu.be/fMdHK9UrgQ4)]
-[[talk](https://youtu.be/_GQ8E7EMMws)]
+- 深入参与聚合页广告点击率、转化率预估模型的设计和迭代，提升产品效率
+- 协同优化聚合页投放链路、流量策略和计费逻辑，提升稳定性
+- 独立对接上游需求，开发数据链路，增设监控指标，解决真实产品问题
 
+### **阳狮集团 (Publicis Groupe)** `2021.6 - 2021.9 `
 
-### [**Penrose: From Mathematical Notation to Beautiful Diagrams**](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)
-Katherine Ye, **Wode Ni**, Max Krieger, Dor Ma'ayan, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> 
-_ACM Transactions on Graphics (SIGGRAPH'20)._<br>
-[[PDF](http://penrose.ink/media/Penrose_SIGGRAPH2020.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/siggraph20-penrose.txt)]
-[[www](http://penrose.ink/siggraph20.html)]
-[[repo](https://github.com/penrose/penrose)]
+_广告行业数据分析实习生_<br>
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)
+- 参与部门 Marketing Mix Modeling (MMM)的算法设计、优化与部署
+- 基于 PySpark，结合机器学习算法，提取、处理、分析电商销售数据与评论数据，并将结果可视化
 
-**Wode Ni\***, Dor Ma'ayan\*, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20)._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+## 学术竞赛
 
+### **全国大学生数学建模竞赛** `2022.9 `
 
-### [**Generating Domain-Specific Programs for Diagram Authoring with Large Language Models**](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)
+_C 题： 古代玻璃制品的成分分析与鉴别，获上海赛区二等奖_<br>
+完成使用稀疏主成分分析法选择重要的化学元素、结合支持向量机模型进行对样品分类、利用 K-Mediods 算法对样品聚类等任务，并结合敏感性分析和 t-SNE 降维算法可视化对模型进行解释和分析。
 
-Rijul Jain, **Wode Ni**, and Joshua Sunshine.<br>
-_SPLASH 2023: Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity (SPLASH'23 EA)._<br>
-[[PDF](https://wodenimoni.com/assets/splash-23-llm-diagrams.pdf)]
+### **美国大学生数学建模竞赛 (MCM)** `2022.2 `
 
+_Honorable Mention on Problem C: Trading Strategies_<br>
+利用 Prophet 对价格数据建立时间序列模型；基于模型的短期预测结果，结合 Markowitz 均值-方差投资组合理论，构建优化问题并求解最优交易策略；综合长短期投资的特点设计长期策略；并进行敏感性分析。
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)
+## 课程项目
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+### **知识图谱** `2023.12`
 
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)
+爬取互联网上的医疗知识，构建图数据库形式的中西医疗领域知识图谱。在此之上，利用 LLM 强大的的自然语言处理、生成，以及函数调用能力，构建智能问答系统，支持复杂的多轮、多跳查询。
 
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://2019.plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+### **数据可视化** `2023.12`
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+全息交通数据可视化分析：设计驾驶画像可视分析和交通态势可视分析系统，简单的前后端分离架构，实现多视图动态展示和联动的效果。[项目地址](https://github.com/chenxuetian/FduDataVisFinal-2023)
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+### **图像处理与可视化** `2022.6 `
 
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+针对全景图像拼接任务，实现 SIFT 特征提取算法从两张图中抽取特征，进一步拟合反向投影变换。经实验，与 OpenCV 的实现结果相近。[项目地址](https://gitee.com/Hu-Icarus/image-process)
 
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
+### **人工智能** `2021.12 `
 
-## Patent
+分别基于对抗搜素、蒙特卡洛树搜索和强化学习实现五子棋 AI，其中最优 AI 获 Bayesian Elo 评分 1845，时列班级第一。[项目地址](https://github.com/Darkroom-Godot/DATA130008.01-Group-Project-Gomoku)
 
-Titus Barik, Gustavo Soares, Piyush Arora, Peter Groenewegen, Sumit Gulwani, Ameya Ketkar, Vu Le, **Wode Ni**, David Pugh, Arjun Radhakrishna, Ivan Radicek, Ashish Tiwari, Mark Wilson-Thomas. Edit automation using an anchor target list. *US Patent 2024/11941372 B2 2024*.
+## 技能与其他
 
-Gustavo Soares, Piyush Arora, Titus Barik, Peter Groenewegen, Sumit Gulwani, Ameya Ketkar, Vu Le, **Wode Ni**, David Pugh, Arjun Radhakrishna, Ivan Radicek, Ashish Tiwari, Mark Wilson-Thomas. Edit automation using a temporal edit pattern.  *US Patent 2024/11875136 B2	2024*.
-
-## Experience
-### **Apple** `2022.5 - 2022.9`
-
-_Research Intern - Machine Intelligence_<br>
-
-At [Apple AI/ML](https://machinelearning.apple.com/), I worked on prototypes and features to improve the developer experience. Shipped [improved Swift code completion](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_3-release-notes#Source-Editor) in Xcode and designed an syntactic code search algorithm published at PLDI'24.
-
-### **Microsoft Research** `2020.5 - 2020.8`
-
-_Research Intern_<br>
-Worked with the [PROSE](https://www.microsoft.com/en-us/research/group/prose/) team (mentored by [Titus Barik](https://www.barik.net/)) on improving developer productivity in Visual Studio Code. I interviewed developers to elicit their needs for code transformation tools in editors. Inspired by the empirical data and relevant work in program synthesis, I designed **reCode**, an interaction model for rapidly performing complex code transformation using the familiar find-and-replace experience, published at UIST'21.
-
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
-
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
-
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
-
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-## Teaching
-
-Teaching Assistant, **Foundations of Software Engineering (17-313)** `CMU, 2022` <br>
-Teaching Assistant, **Crafting Software (17-450/17-950)** `CMU, 2022` <br>
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-## Mentoring
-
-[Kyle Lee](https://github.com/kyleleesea) (CMU) `CMU, 2024` <br>
-[Griffin Teller](https://griffinteller.com/) (CMU) `CMU, 2024` <br>
-[Rijul Jain](https://rijuljain.com/) (Williams College) `CMU, 2023 - 2024` <br>
-[Yiliang "Leo" Liang](https://www.linkedin.com/in/yiliang-liang-a3631a138/) (University of Michigan) `CMU, 2022 - 2023` <br>
-[Hwei-Shin Harriman](https://hsharriman.github.io/) (Olin College of Engineering) `CMU, 2021 - 2022` <br>
-[Helena Yang](https://heleaf.me/) (CMU) `CMU, 2021` <br>
-[Max Krieger](https://a9.io/) (CMU) `CMU, 2018 - 2021` <br>
-[Courtney Miller](https://courtney-e-miller.github.io/) (New College of Florida) `CMU, 2019` <br>
-[Anael Kuperwajs Cohen](https://anaelkuperwajs.github.io/) (Macalester College) `CMU, 2019` <br>
-
-## Honors & Awards
-
-CMU Open Source Office Fellowship, supported by the Alfred P. Sloan Foundation `CMU, 2023-2024` <br>
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
-## Service
-
-S3D Department head search committee `CMU, 2024` <br>
-Sub-reviewer `OOPSLA'21, VL/HCC'21` <br>
-Reviewer `CHI'21, CHI'22, SIGGRAPH'22, UIST'23, CHI'24` <br>
-Research Experiences for Undergraduates in Software Engineering Admission Committee `CMU, 2019 - 2023` <br>
+- **计算机技能：** 熟练使用 Python、C/C++、JS、MATLAB、R 等语言，以及 Pytorch、Transformers、LLaMA-Factory 等常用深度学习框架/库。了解组成原理、体系结构、系统、网络等知识，深入自学中。
+- **数学基础：** 熟悉运筹、优化、统计、回归、随机过程、统计学习等知识，初步了解测度论、泛函分析的内容。
+- **研究兴趣：** 多模态大模型在 GUI 交互上的应用，及其架构设计、训练模式、数据合成；大规模分布式训练与推理系统
 
 <!-- ### Footer
 
