@@ -88,15 +88,15 @@ _Honorable Mention on Problem C: Trading Strategies_<br>
 
 ### **数据可视化** `2023.12`
 
-全息交通数据可视化分析：设计驾驶画像可视分析和交通态势可视分析系统，简单的前后端分离架构，实现多视图动态展示和联动的效果。[项目地址](https://github.com/chenxuetian/FduDataVisFinal-2023)
+全息交通数据可视化分析：设计驾驶画像可视分析和交通态势可视分析系统，简单的前后端分离架构，实现多视图动态展示和联动的效果。[Repo](https://github.com/chenxuetian/FduDataVisFinal-2023)
 
 ### **图像处理与可视化** `2022.6 `
 
-针对全景图像拼接任务，实现 SIFT 特征提取算法从两张图中抽取特征，进一步拟合反向投影变换。经实验，与 OpenCV 的实现结果相近。[项目地址](https://gitee.com/Hu-Icarus/image-process)
+针对全景图像拼接任务，实现 SIFT 特征提取算法从两张图中抽取特征，进一步拟合反向投影变换。经实验，与 OpenCV 的实现结果相近。[Repo](https://gitee.com/Hu-Icarus/image-process)
 
 ### **人工智能** `2021.12 `
 
-分别基于对抗搜素、蒙特卡洛树搜索和强化学习实现五子棋 AI，其中最优 AI 获 Bayesian Elo 评分 1845，时列班级第一。[项目地址](https://github.com/Darkroom-Godot/DATA130008.01-Group-Project-Gomoku)
+分别基于对抗搜素、蒙特卡洛树搜索和强化学习实现五子棋 AI，其中最优 AI 获 Bayesian Elo 评分 1845，时列班级第一。[Repo](https://github.com/Darkroom-Godot/DATA130008.01-Group-Project-Gomoku)
 
 ## 技能与其他
 
