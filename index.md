@@ -32,17 +32,17 @@ Supported arguments:
 
 ## 科研经历
 
-### 投稿论文
+### **投稿论文**
 
 **_Xuetian Chen,_** _Hangcheng Li, Jiaqing Liang, Sihang Jiang, and Deqing Yang. EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data._[[PDF](https://arxiv.org/pdf/2410.19461)][[Repo](https://github.com/chenxuetian/EDGE)][[OpenReview](https://openreview.net/forum?id=9P8Zut9qul&noteId=jL7OZ2qjwG)] `2024.10`
 
 独立一作，数据驱动的方式增强多模态大模型在 GUI Grounding 任务上的能力。设计一套完整的、自动化的网页标注-数据合成框架，生成丰富的多层次、多粒度屏幕问答，用于训练多模态大模型的 GUI 理解与交互能力，重点关注 Grounding，尤其对难以自动化标注的图标数据针对增强。
 
-### 进行中论文
+### **进行中论文**
 
 **_独立一作，即将投稿 NeurIPS 2025_** 日常场景的 Computer Use 能力综合评估基准。提炼出 L1-L5 自动化程度分级框架来解析 Computer Use 核心能力与挑战；基于对日常生活场景的需求分析来设计任务集，以覆盖日常使用场景。结合自动化程度与泛化范围两维度，构建评估矩阵，系统性地评估 Computer Use Agents 的能力。 `2024.12-至今`
 
-### 项目经历
+### **项目经历**
 
 **_Coldint Subnet Training Competition_** 独立使用 8\*H200 开展 phi3-16.7B 模型的大规模训练，以求在 FineWeb 的子集上获得最小的 next token prediction loss。主导高效数据 pipeline、分布式训练框架的建立，以及 Flash-attention-2 在 phi3 上的适配，提升训练效率 3x。目前正进一步探索高效的算子、优化器的使用，以及模型融合方案，提交模型目前位于排行榜第一。`2024.11-至今`
 
