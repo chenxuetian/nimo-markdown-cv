@@ -104,7 +104,7 @@ _Honorable Mention on Problem C: Trading Strategies_<br>
 
 ## 技能与兴趣
 
-- **计算机技能：** 熟练使用 Python、C/C++、JS、MATLAB、R 等语言，以及 Pytorch、Transformers、LLaMA-Factory 等常用深度学习框架/库。了解组成原理、体系结构、系统、网络等计算机知识，深入自学中。
+- **计算机技能：** 熟练使用 Python、C/C++、JS、MATLAB、R 等语言，以及 Pytorch、Transformers、LLaMA-Factory 等常用深度学习框架/库。了解组成原理、体系结构、系统、网络等计算机知识。
 - **数学基础：** 熟悉运筹、优化、统计、回归、随机过程、统计学习等知识，初步了解测度论、泛函分析的内容。
 - **研究兴趣：** 应用于 GUI 交互上的多模态大模型，及其架构设计、训练模式、数据合成；大规模分布式训练与推理系统。
 
