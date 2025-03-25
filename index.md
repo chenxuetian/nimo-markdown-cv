@@ -24,7 +24,7 @@ Supported arguments:
 ### **复旦大学** `2019.9 - 2023.6`
 
 - 理学学士学位，数据科学与大数据专业，均绩：3.73/4.0，专业排名：9/80
-- 获复旦大学本科生奖学金一等奖、二等奖、三等奖、优秀学生等奖项
+- 多次获复旦大学本科生奖学金、优秀学生等奖项
 
 ### **复旦大学** `2023.9 - 2026.6`
 
@@ -44,7 +44,7 @@ Supported arguments:
 
 ### **项目经历**
 
-**_Coldint Subnet Training Competition_** 独立使用 8\*H200 开展 phi3-16.7B 模型的大规模训练，以求在 FineWeb 的子集上获得最小的 next token prediction loss。主导高效数据 pipeline、分布式训练框架的建立，以及 Flash-attention-2 在 phi3 上的适配，提升训练效率 3x。目前正进一步探索高效的算子、优化器的使用，以及模型融合方案，提交模型目前位于排行榜第一。`2024.11-至今`
+**_Coldint Subnet Training Competition_** 独立使用 8\*H200 开展 phi3-16.7B 模型的大规模训练，以求在 FineWeb 的子集上获得最小的 next token prediction loss。主导高效数据 pipeline、分布式训练框架的建立，以及 Flash-attention-2 在 phi3 上的适配，提升训练效率 3x。目前正进一步探索高效的算子、优化器、模型融合方案和数据分布技巧，提交模型目前位于排行榜第一。`2024.11-至今`
 
 ## 实习经历
 
@@ -52,10 +52,9 @@ Supported arguments:
 
 _大模型中心-群体智能项目-Computer Use 应用方向_<br>
 
-- 独立一作主导上述 Computer Use Benchmark 研究，包括背景调研、概念设计、小规模试验、大规模众包、实验分析等阶段。
-- 主导小团队调研领域整体学术、业界进展，定期举行论文分享和交流讨论
-- 参与小团队成员研究课题，PPO 在 Agent 场景的环境适应与推理增强上的适配，探索 RL 实现 agentic model
-- 带教校内 5 位同学的本科毕设/科研项目，涉及 Computer Use Agent 的数据合成、场景应用与强化学习驱动的环境适应等方向
+- 独立一作主导上述 Computer Use Benchmark 研究，进行背景调研、概念设计、方案设计、落地实现、规模众包等工作。
+- 参与团队成员研究课题，PPO 在 Agent 场景的环境适应与推理增强上的适配，探索 RL 实现 agentic model 的路径
+- 带教校内 5 位同学的本科毕设/科研项目，涉及 Computer Use Agent 的数据合成与质量评估、场景应用等方向
 
 ### **字节跳动** `2022.12 - 2023.8 `
 
@@ -69,8 +68,8 @@ _闭环电商广告算法-流量策略-千川聚合页方向_<br>
 
 _广告数据分析_<br>
 
-- 参与部门 Marketing Mix Modeling (MMM)回归模型的优化与部署。包括添加权重约束、超参数调优、特征合并，换用贝叶斯框架等。
-- 基于 PySpark，结合机器学习算法，查询、处理、分析电商销售数据，并可视化结果。可视化商品评论数据并进行情感分析。
+- 参与 Marketing Mix Modeling (MMM)回归模型的优化与部署。包括添加权重约束、超参数调优、特征合并，换用贝叶斯框架等。
+- 基于 PySpark，结合机器学习算法，对电商销售数据和评论数据进行查询、分析、建模、可视化等操作。
 
 ## 学术竞赛
 
@@ -102,11 +101,10 @@ _Honorable Mention on Problem C: Trading Strategies_<br>
 
 分别基于对抗搜素、蒙特卡洛树搜索和强化学习实现五子棋 AI，其中最优 AI 获 Bayesian Elo 评分 1845，时列班级第一。[[Repo](https://github.com/Darkroom-Godot/DATA130008.01-Group-Project-Gomoku)]
 
-## 技能与兴趣
+## 技能掌握
 
 - **计算机技能：** 熟练使用 Python、C/C++、JS、MATLAB、R 等语言，以及 Pytorch、Transformers、LLaMA-Factory 等常用深度学习框架/库。了解组成原理、体系结构、系统、网络等计算机知识。
 - **数学基础：** 熟悉运筹、优化、统计、回归、随机过程、统计学习等知识，初步了解测度论、泛函分析的内容。
-- **研究兴趣：** 应用于 GUI 交互上的多模态大模型，及其架构设计、训练模式、数据合成；大规模分布式训练与推理系统。
 
 <!-- ### Footer
 
