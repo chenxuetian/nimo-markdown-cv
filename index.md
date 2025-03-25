@@ -83,24 +83,6 @@ _C 题： 古代玻璃制品的成分分析与鉴别，获上海赛区二等奖_
 _Honorable Mention on Problem C: Trading Strategies_<br>
 利用 Prophet 对资产价格数据建立时间序列模型；基于模型的短期预测结果，结合 Markowitz 投资组合理论，构建优化问题并求解最优交易策略；综合长短期投资的特点设计长期策略；并进行敏感性分析。
 
-## 其他项目
-
-### **知识图谱** `2023.12`
-
-爬取互联网上的医疗知识，构建图数据库形式的中西医疗领域知识图谱。在此之上，利用 LLM 强大的的自然语言处理、生成，以及函数调用能力，构建智能问答系统，支持开放的自然语言问询，以及复杂的多轮、多跳查询。
-
-### **数据可视化** `2023.12`
-
-全息交通数据可视化分析：设计可视分析流程，完成驾驶画像分析和交通态势分析任务，实现交互式可视化系统。简单的前后端分离架构，多视图动态联动效果。[[Repo](https://github.com/chenxuetian/FduDataVisFinal-2023)]
-
-### **图像处理与可视化** `2022.6 `
-
-针对全景图像拼接任务，实现 SIFT 特征提取算法从两张图中抽取特征，进一步拟合反向投影变换。经实验，与 OpenCV 的实现结果相近。[[Repo](https://gitee.com/Hu-Icarus/image-process)]
-
-### **人工智能** `2021.12 `
-
-分别基于对抗搜素、蒙特卡洛树搜索和强化学习实现五子棋 AI，其中最优 AI 获 Bayesian Elo 评分 1845，时列班级第一。[[Repo](https://github.com/Darkroom-Godot/DATA130008.01-Group-Project-Gomoku)]
-
 ## 技能掌握
 
 - **计算机技能：** 熟练使用 Python、C/C++、JS、MATLAB、R 等语言，以及 Pytorch、Transformers、LLaMA-Factory 等常用深度学习框架/库。了解组成原理、体系结构、系统、网络等计算机知识。
