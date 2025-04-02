@@ -44,7 +44,7 @@ Supported arguments:
 
 ### **项目经历**
 
-**_Coldint Subnet Training Competition_** 独立使用 8\*H200 开展 phi3-16.7B 模型的大规模训练，以求在 FineWeb 的子集上获得最小的 next token prediction loss。主导高效数据 pipeline、分布式训练框架的建立，以及 Flash-attention-2 在 phi3 上的适配，提升训练效率 3x。目前正进一步探索高效的算子、优化器、模型融合方案和数据分布技巧，提交模型目前位于排行榜第一。`2024.11-至今`
+**_Coldint Subnet Training Competition_** 独立使用 8\*H200 开展 phi3-16.7B 模型的大规模训练，以求在 FineWeb 的子集上获得最小的 next token prediction loss。主导高效数据 pipeline、分布式训练框架的建立，以及 Flash-attention-2 在 phi3 上的适配，提升训练效率 3x。目前正进一步探索高效的算子、优化器、模型融合方案和数据分布技巧，提交模型曾位排行榜第一。`2024.11-至今`
 
 ## 实习经历
 
