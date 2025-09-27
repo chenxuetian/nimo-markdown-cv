@@ -44,13 +44,13 @@ _Tiktok-主端短视频推荐算法-精排推荐大模型_
 
 ### **上海人工智能实验室** `2024.12 - 2025.5`
 
-_大模型中心-群体智能项目-Computer Use 应用方向_<br>
+_大模型中心-Computer Use Agent_<br>
 - 独立一作主导上述 Computer Use Benchmark 研究，进行背景调研、概念设计、方案设计、落地实现、规模众包等工作，设计了416个评估任务，在自动化程度与泛化范围两个维度上评估智能体的能力与用户真实需求的匹配度，独立一作 ICLR 2026 在投。
 - 参与团队成员研究课题，Computer Use 场景的输出动作模式优化，减少推理步骤长度，降低50%任务执行耗时，ICLR 2026 在投。
 
 ### **字节跳动** `2022.12 - 2023.8 `
 
-_闭环电商广告算法-流量策略-千川聚合页方向_<br>
+_闭环电商广告算法-流量策略-千川聚合页_<br>
 
 - 模型：参与聚合页广告 CTR、CVR 预估模型的迭代与 CTR/CVR 统一模型的架构设计、特征工程。优化模型预估准确度以提升产品效率，提升聚合页消耗和大盘消耗。
 - 链路/策略：协同优化聚合页投放链路与计费逻辑，在精排阶段根据聚合页逻辑，增设多条指标打点并设计监控看板，参与问题排查，促进聚合页稳步迭代。
@@ -67,7 +67,8 @@ _**Xuetian Chen**, Yinghao Chen, et al. OS-MAP: How Far Can Computer-using Agent
 
 独立一作，数据驱动的方式增强多模态大模型在 GUI Grounding 任务上的能力。设计一套完整的、自动化的网页标注-数据合成框架，生成丰富的多层次、多粒度屏幕问答，用于训练多模态大模型的 GUI 理解与交互能力，重点关注 Grounding，尤其对难以自动化标注的图标数据针对增强。
 
-_Xinfeng Yuan, Qiushi Sun, Yinghao Chen, Rui Li, **Xuetian Chen**, et al. OS-Catalyst: Advancing Computer-Using Agents Efficiency through Adaptive Action Compression_
+_Xinfeng Yuan, Qiushi Sun, Yinghao Chen, Rui Li, **Xuetian Chen**, et al. OS-Catalyst: Advancing Computer-Using Agents Efficiency through Adaptive Action Compression_ [[OpenReview](https://openreview.net/forum?id=QpKXNYtF3x&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))]
+
 设计一套适于 computer use Agent 动作轨迹压缩训练的数据收集流程，通过训练 compute use agent 的动作序列预测能力，减少连续动作间不必要的观察，降低推理过程的步骤数量与50%时间开销。 `2025.5`
 
 ### **项目经历**
