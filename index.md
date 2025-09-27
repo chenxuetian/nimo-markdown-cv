@@ -59,18 +59,18 @@ _闭环电商广告算法-流量策略-千川聚合页_<br>
 
 ### **投稿论文**
 
-_**Xuetian Chen**, Yinghao Chen, et al. OS-MAP: How Far Can Computer-using Agents Go in Beatdth and Depth?_ [[PDF](https://arxiv.org/abs/2507.19132)][[Repo](https://github.com/OS-Copilot/OS-Map)]
+- _**Xuetian Chen**, Yinghao Chen, et al. OS-MAP: How Far Can Computer-using Agents Go in Beatdth and Depth?_ [[PDF](https://arxiv.org/abs/2507.19132)][[Repo](https://github.com/OS-Copilot/OS-Map)]
 独立一作，ICLR 2026 在投。日常场景的 Computer Use 能力综合评估基准。提炼出 L1-L5 自动化程度分级框架来解析 Computer Use 核心能力与挑战；基于对日常生活场景的需求分析来设计任务集，以覆盖日常使用场景。结合自动化程度与泛化范围两维度，构建评估矩阵，设计并实现416个评估任务，系统性地评估 Computer Use Agents 的能力。 `2025.5`
 
-**_Xuetian Chen,_** _Hangcheng Li, Jiaqing Liang, Sihang Jiang, and Deqing Yang. EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data._[[PDF](https://arxiv.org/pdf/2410.19461)][[Repo](https://github.com/chenxuetian/EDGE)][[OpenReview](https://openreview.net/forum?id=9P8Zut9qul&noteId=jL7OZ2qjwG)] 
+- **_Xuetian Chen,_** _Hangcheng Li, Jiaqing Liang, Sihang Jiang, and Deqing Yang. EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data._[[PDF](https://arxiv.org/pdf/2410.19461)][[Repo](https://github.com/chenxuetian/EDGE)][[OpenReview](https://openreview.net/forum?id=9P8Zut9qul&noteId=jL7OZ2qjwG)] 
 独立一作，数据驱动的方式增强多模态大模型在 GUI Grounding 任务上的能力。设计一套完整的、自动化的网页标注-数据合成框架，生成丰富的多层次、多粒度屏幕问答，用于训练多模态大模型的 GUI 理解与交互能力，重点关注 Grounding，尤其对难以自动化标注的图标数据针对增强。 `2024.10`
 
-_Xinfeng Yuan, Qiushi Sun, Yinghao Chen, Rui Li, **Xuetian Chen**, et al. OS-Catalyst: Advancing Computer-Using Agents Efficiency through Adaptive Action Compression_ [[OpenReview](https://openreview.net/forum?id=QpKXNYtF3x&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))]
+- _Xinfeng Yuan, Qiushi Sun, Yinghao Chen, Rui Li, **Xuetian Chen**, et al. OS-Catalyst: Advancing Computer-Using Agents Efficiency through Adaptive Action Compression_ [[OpenReview](https://openreview.net/forum?id=QpKXNYtF3x&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions))]
 设计一套适于 computer use Agent 动作轨迹压缩训练的数据收集流程，通过训练 compute use agent 的动作序列预测能力，减少连续动作间不必要的观察，降低推理过程的步骤数量与50%时间开销。 `2025.5`
 
 ### **项目经历**
 
-**_Coldint Subnet Training Competition_** 独立使用 8\*H200 开展 phi3-16.7B 模型的大规模训练，以求在 FineWeb 的子集上获得最小的 next token prediction loss。主导高效数据 pipeline、分布式训练框架的建立，以及 Flash-attention-2 在 phi3 上的适配，提升训练效率 3x。目前正进一步探索高效的算子、优化器、模型融合方案和数据分布技巧，提交模型曾位排行榜第一。`2024.12`
+- **_Coldint Subnet Training Competition_** 独立使用 8\*H200 开展 phi3-16.7B 模型的大规模训练，以求在 FineWeb 的子集上获得最小的 next token prediction loss。主导高效数据 pipeline、分布式训练框架的建立，以及 Flash-attention-2 在 phi3 上的适配，提升训练效率 3x。目前正进一步探索高效的算子、优化器、模型融合方案和数据分布技巧，提交模型曾位排行榜第一。`2024.12`
 
 ## 学术竞赛
 
