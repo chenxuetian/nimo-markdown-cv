@@ -35,12 +35,12 @@ Supported arguments:
 ### **字节跳动** `2025.5 - 至今`
 _Tiktok-主端短视频推荐算法-精排推荐大模型_
 - \[WIP\] 多模态推荐大模型：
-  - \[Owner\] 多模态内容理解大 dense 特征引入推荐模型，确定接入方式、推动训推侧通信和缓存优化、推荐模型内建模方式和生效验证逻辑正探索中。
-  - \[Owner\] 多模态特征引入推荐模型，在特征形式 (dense/token)、特征尺度和模型尺度上的 scaling law 验证。
-  - \[共建\] 多模态特征产出侧优化提需，包括抽帧方式优化、领域数据适应、对比学习微调、推荐生态任务 post-training 等方案讨论，以及在推荐侧的评估基准设计。
-- \[Owner\] Listwise 天级聚合的训练数据流迁移验收和打平全流程，保证 listwise 样本聚合度足够高，确保训练稳定性。
-- \[参与\] Backbone 复杂化：推荐大模型 backbone 选型 (MMCN, Transformer, TokenMixer, Wukong)，在迁移新训练框架后适配模型代码，分析离在线收益和异常现象。
-- \[Owner\] Multi-epoch 训练，各种数据混合方式的探索与离在线现象和过拟合来源分析。
+  - \[Owner\] 多模态内容理解大 dense 特征引入推荐模型，基建上确定接入链路改造、设计训推侧通信与缓存优化方案，算法上正在探索多模态内容特征与 id 和泛化特征的融合、与序列模块的交互的最优建模方式。
+  - \[Owner\] 多模态特征引入推荐模型 scaling law 验证，在特征形式(dense embedding / RQ token)、特征尺度(dense projector/token embedding table)和模型尺度上绘制 scaling law 曲线。
+  - \[参与\] 因多模态特征产出侧迭代加速，参与产出、接入、评测和收益验证的全流程设计：产出侧优化提需，包括输入信息完善(更优抽帧方式、引入 ASR/OCR 文本、音频模态特征)、MLLM post-training(领域数据适应、对比学习微调、推荐生态任务)；以及推荐侧评估benchmark的设计。
+- \[Owner\] Listwise 天级聚合的训练数据流迁移验收和打平全流程跟进，分样本统计数据-离线训练指标-在线预估指标三阶段验证打平；保证 listwise 样本聚合度足够高，确保大规模训练稳定性。
+- \[Owner\] Multi-epoch training 初步探索，探索数据的各种多轮混合方式、简单 dense-multi-epochs 和两套顶层 task towers 对训练效果的影响，确认过拟合现象来自 dense 的快速学习，分析不同 task head 在 2nd epoch 时的不同过拟合表现。
+- \[辅助\] 推荐大模型 backbone 复杂化正在选型 (MMCN, Transformer, TokenMixer, Wukong)，在迁移新训练框架后适配模型代码，分析各结构的离在线收益和异常现象，确定 Transformer 和 TokenMixer 为后续 scaling up 的 backbone 候选。
 
 ### **上海人工智能实验室** `2024.12 - 2025.5`
 
